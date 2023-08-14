@@ -15,8 +15,10 @@
 //       });
 // }
 
+// const config = require('./config');
+
 let weather = {
-  apiKey:'8e18dca64352c1c5051abe7ce28a06ba',
+  apiKey:API_KEY,
   fetchWeather: function (city) {
     fetch('https://api.openweathermap.org/data/2.5/weather?q='
     +city 
