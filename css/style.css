@@ -70,7 +70,7 @@ h1.temp{
 }
 .description{
   text-transform: capitalize;
-  margin-left: 8px;
+  
 }
 .icon{
   display:flex;
